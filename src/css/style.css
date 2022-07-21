@@ -40,6 +40,7 @@ div h1 {
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
+    background-color: hsl(0, 44%, 66%);
 }
 
 img {
@@ -47,9 +48,13 @@ img {
 }
 
 h2 {
+    text-transform: uppercase;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 23px;
+    background-color: hsl(0, 44%, 66%);
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 body {
@@ -62,6 +67,18 @@ body {
 
 .texto-principal {
     padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background-color: rgb(206, 130, 130, 0.9);
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 249, 249, 0.8);
+}
+
+.texto-lista-ordenada {
+    padding-left: 50px;
     padding-right: 20px;
     text-align: justify;
     padding-top: 10px;
@@ -81,7 +98,25 @@ strong {
     font-size: 20px;
 }
 
-li {
+ol li {
+    padding-left: 5px;
     font-size: 25px;
     color: blueviolet;
+}
+
+.lista-ordenada {
+    color: #fff;
+    font-size: 20px;
+}
+
+.lista-n-ordenada {
+    padding-left: 50px;
+    padding-right: 20px;
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(206, 130, 130, 0.9);
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 249, 249, 0.8);
 }
