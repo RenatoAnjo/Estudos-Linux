@@ -120,3 +120,7 @@ ol li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(255, 249, 249, 0.8);
 }
+
+.config-lista-nordenada {
+    padding-left: 35px;
+}
