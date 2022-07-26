@@ -127,6 +127,14 @@ strong {
     font-size: 20px;
 }
 
+span {
+    font-style: italic;
+    font-weight: bold;
+    color:black;
+    font-size: larger;
+    font-size: 20px;
+}
+
 ol li {
     padding-left: 5px;
     font-size: 25px;
@@ -143,7 +151,7 @@ ul li {
 
 .lista-ordenada {
     color: #30110d;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .lista-n-ordenada {
