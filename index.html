@@ -8,11 +8,11 @@
     <title>Linux Mint</title>
   </head>
   <body>
-    <div>
+    <header>
       <h1>
         Linux Mint, todo o poder do Linux com muita elegância.
       </h1>
-    </div>
+    </header>
     <article class="texto-principal">
       O Linux Mint é um sistema elegante e confortável, além de poderoso e fácil
       de usar, ambientado nos desktops Cinnamon, MATE ou Xfce. Nosso mais
@@ -59,13 +59,13 @@
       Desde que foi lançado em 1991, ele continuou a ganhar popularidade devido a sua natureza em ser de código aberto. Por causa disso, as pessoas podem livremente modificá-lo e redistribui-lo sob seu próprio nome. <br>
       Ainda que o Linux não supere o Windows em participação de mercado, suas distribuições são extremamente populares entre os provedores de hospedagem de sites. Graças à estabilidade, flexibilidade e segurança, 36.7% dos sites na internet usam Linux como seus servidores de sistemas operacionais.
     </article>
-      <h2>Conteudo</h2>
+      <h2>Conteúdo</h2>
     <article class="lista-n-ordenada">
       <ul>
-        <li> O Que é Linux?</li>
-        <li>Como Usar o Linux?</li>
-        <li>Comandos Linux</li>
-        <li>Dicas e truques de Bônus</li>
+        <li><span class="lista-ordenada">O Que é Linux?</span></li>
+        <li><span class="lista-ordenada">Como Usar o Linux?</span></li>
+        <li><span class="lista-ordenada">Comandos Linux</span></li>
+        <li><span class="lista-ordenada">Dicas e truques de Bônus</span></li>
       </ul>
     </article>
       <h2> O Que é Linux?</h2>
@@ -85,74 +85,71 @@
     <article class="texto-principal">
       Antes de entrarmos na lista de principais comandos Linux, primeiro você precisa abrir a linha de comando. Se você ainda tem insegurança sobre a interface de linha de comando, confira este tutorial sobre CLI. <br>
       Embora os passos abaixo possam ser diferentes dependendo da distribuição que você estiver usando, você geralmente encontra a linha de comando na seção Utilities (Utilidades).  <br>
-      Vamos começar?  <br>
     </article>
-      <h2>
+      <h3>
         1. Comando pwd
-      </h2>
+      </h3>
     <article class="texto-principal">
       Use o comando <strong>pwd</strong> para encontrar o caminho para o diretório atual (da pasta) em que você está. O comando vai retornar um caminho completo (cheio), que é basicamente um caminho que começa com uma barra inclinada <strong>(/)</strong>. Um exemplo de um caminho completo é <strong>/home/username</strong>.
     </article>
-      <h2> 
+      <h3> 
         2. Comando cd
-      </h2>
+      </h3>
     <article class="texto-principal">
       Para navegar pelo filesystem do Linux, use o comando <strong>cd</strong> . Ele requer ou um caminho completo ou o nome de um diretório, dependendo do diretório atual em que você estiver. <br>
       Vamos dizer que você esteja em <strong>/home/username/Documents</strong>  e quer ir para <strong>Photos</strong> , um subdiretório de <strong>Documents</strong>. Para fazer isso, simplesmente digite <strong>cd Photos</strong> . <br>
       Outro cenário em que você quer mudar completamente de diretório, digamos, para <strong>/home/username/Movies</strong> . Nesse caso, você tem que digitar <strong>cd</strong> seguido pelo caminho absoluto do diretório.    <br>
       Existem alguns atalhos que você pode usar para navegar mais rapidamente: <br> <br>
       <ul class="config-lista-nordenada">
-        <li> Use <strong>cd..</strong> (com dois pontos seguidos) para mover um diretório acima</li>
-        <li> Use cd para ir diretamente para a pasta home</li>
-        <li> Use <strong>cd–</strong> (com um hífen) para mover para os diretórios anteriores.</li>
+        <li> <span class="lista-ordenada">Use <strong>cd..</strong>(com dois pontos seguidos) para mover um diretório acima</span></li>
+        <li> <span class="lista-ordenada">Use cd para ir diretamente para a pasta home</span></li>
+        <li> <span class="lista-ordenada">(Use <strong>cd–</strong> com um hífen) para mover para os diretórios anteriores.</span></li>
      </ul> <br>
      Uma nota de aviso: o shell do Linux é sensível a tipos de caracteres. Por isso, você precisa digitar o nome do diretório exatamente como ele é escrito (usando letras minúsculas ou maiúsculas).
     </article>
-      <h2>
+      <h3>
         3. Comando ls
-      </h2>
+      </h3>
      <article class="texto-principal">
-      O comando ls é usado para visualizar conteúdos em um diretório. Por padrão, esse comando vai mostrar os conteúdos apenas do diretório atual em que você estiver.
-      Se você quiser ver o conteúdo de outros diretórios, digite ls e, então, o caminho do diretório. Por exemplo, digite ls /home/username/Documents para ver os conteúdos de Documents.
-      Existem variações que você pode usar com o comando Is:
+      O comando ls é usado para visualizar conteúdos em um diretório. Por padrão, esse comando vai mostrar os conteúdos apenas do diretório atual em que você estiver. <br>
+      Se você quiser ver o conteúdo de outros diretórios, digite ls e, então, o caminho do diretório. Por exemplo, digite ls /home/username/Documents para ver os conteúdos de Documents. <br>
+      Existem variações que você pode usar com o comando Is: <br>
       ls -R vai listar todos os arquivos nos subdiretórios
       ls -a vai mostrar todos os arquivos ocultos
       ls -al vai listar todos os arquivos e diretórios com informações detalhadas como permissões, tamanho, proprietário, etc.
      </article> 
-      <h2>
+      <h3>
         4. Comando cat
-      </h2>
+      </h3>
      <article class="texto-principal">
-      O cat (abreviação para concatenar) é um dos comandos Linux mais usados. Ele é usado para visualizar o conteúdo de um arquivo na saída padrão (sdout). Para executar esse comando, digite cat seguido pelo nome do arquivo e sua extensão. Por exemplo: cat file.text.
-      Aqui estão outras maneiras de usar o comando cat:
+      O cat (abreviação para concatenar) é um dos comandos Linux mais usados. Ele é usado para visualizar o conteúdo de um arquivo na saída padrão (sdout). Para executar esse comando, digite cat seguido pelo nome do arquivo e sua extensão. Por exemplo: cat file.text. <br>
+      Aqui estão outras maneiras de usar o comando cat: <br>
       cat > filename cria um novo arquivo
       cat filename1 filename2>filename3 junta dois arquivos (1 e 2) e armazena a saída deles num novo arquivo (3)
       para converter um arquivo para usos de maiúscula ou minúscula, use cat filename | tr a-z A-Z >output.txt
      </article> 
-      <h2>
+      <h3>
         5. Comando cp 
-      </h2> 
+      </h3> 
      <article class="texto-principal">
-      Use o comando cp para copiar arquivo do diretório atual em que você estiver. Por exemplo, o comando cp scenery.jpg /home/username/Picturesvai criar uma cópia de scenery.jpg para o diretório Pictures.  0
+      Use o comando cp para copiar arquivo do diretório atual em que você estiver. Por exemplo, o comando cp scenery.jpg /home/username/Picturesvai criar uma cópia de scenery.jpg para o diretório Pictures.  
      </article> 
-      <h2>
+      <h3>
         6. Comando mv
-      </h2> 
+      </h3> 
     <article class="texto-principal">
-      O usuário habitual do comando mv é mover arquivos, ainda que ele possa também ser usado para renomear arquivos.
-
-      Os argumentos neste comando é similar ao comando cp. Você precisa digitar mv, o nome do arquivo e o diretório de destino. Por exemplo: mv file.txt /home/username/Documents.  
-
+      O usuário habitual do comando mv é mover arquivos, ainda que ele possa também ser usado para renomear arquivos. <br>
+      Os argumentos neste comando é similar ao comando cp. Você precisa digitar mv, o nome do arquivo e o diretório de destino. Por exemplo: mv file.txt /home/username/Documents.   <br>
       Já para renomear arquivos, a sintaxe é mv nomeantigo.ext nomenovo.ext. 
     </article> 
-      <h2>
+      <h3>
         7. Comando mkdir
-      </h2>
+      </h3>
       <article class="texto-principal">
         Use o comando mkdir para criar um novo diretório – como mkdir Music, que vai criar um novo diretório chamado Music.
-        Também existem comandos mkdir extras:
+        Também existem comandos mkdir extras: <br>
         Para gerar um novo diretório dentro de outro diretório, use este comando básico do Linux mkdir Music/Newfile
-        use a opção p (parents) para criar um diretório entre dois diretórios existentes. Por exemplo, mkdir -p Music/2020/Newfile vai criar o novo arquivo “2020”.
+        use a opção p (parents) para criar um diretório entre dois diretórios existentes. Por exemplo, mkdir -p Music/2020/Newfile vai criar o novo arquivo “2020”. <br>
       </article> 
   </body> 
 </html>

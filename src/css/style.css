@@ -20,27 +20,33 @@ time, mark, audio, video {
 }
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 35px;
     padding-bottom: 15px;
     padding-top: 15px;
+    color: #722620;
+    font-weight: 900;
 }
 
-div h1 {
-    background-color: hsl(0, 44%, 66%);
+header h1 {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f2bc94 ;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    border: 2px solid #30110d;
+    
 }
 
 
 .img-principal {
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     text-align: center;
-    background-color: hsl(0, 44%, 66%);
+    background-color: #f2bc94 ;
+    border-right: 2px solid #30110d;
+    border-left: 2px solid #30110d;
 }
 
 img {
@@ -48,13 +54,33 @@ img {
 }
 
 h2 {
+    font-family: 'Courier New', Courier, monospace;
     text-transform: uppercase;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 23px;
-    background-color: hsl(0, 44%, 66%);
+    background-color: #f2bc94;
     padding-top: 10px;
     padding-bottom: 10px;
+    border-top: 2px solid #30110d;
+    border-right: 2px solid #30110d;
+    border-left: 2px solid #30110d;
+    color: #722620;
+    font-weight: 800;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    text-align: left ;
+    font-size: 23px;
+    background-color: #f2bc94;
+    padding-left: 20px;
+    padding-top: 15px;
+    border-top: 2px solid #30110d;
+    border-right: 2px solid #30110d;
+    border-left: 2px solid #30110d;
+    color: #722620;
+    font-weight: 800;
 }
 
 body {
@@ -62,7 +88,7 @@ body {
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: rgb(240, 248, 255, 0.7);
+    background-color: hsl(26, 78%, 76% ,0.9) ;
 }
 
 .texto-principal {
@@ -70,11 +96,13 @@ body {
     padding-right: 20px;
     text-align: justify;
     padding-top: 13px;
-    padding-bottom: 13px;
-    background-color: rgb(206, 130, 130, 0.9);
+    padding-bottom: 15px;
+    background-color: #f2bc94 ;
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(255, 249, 249, 0.8);
+    color: #30110d;
+    border-right: 2px solid #30110d;
+    border-left: 2px solid #30110d;
 }
 
 .texto-lista-ordenada {
@@ -83,10 +111,11 @@ body {
     text-align: justify;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: rgb(206, 130, 130, 0.9);
+    background-color: #f2bc94;
+    border-right: 2px solid #30110d;
+    border-left: 2px solid #30110d;
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(255, 249, 249, 0.8);
 }
 
 strong {
@@ -101,11 +130,19 @@ strong {
 ol li {
     padding-left: 5px;
     font-size: 25px;
-    color: blueviolet;
+    color: #722620;
+    font-weight: 900;
+}
+
+ul li {
+    padding-left: 5px;
+    font-size: 25px;
+    color: #722620;
+    font-weight: 900;
 }
 
 .lista-ordenada {
-    color: #fff;
+    color: #30110d;
     font-size: 20px;
 }
 
@@ -113,12 +150,14 @@ ol li {
     padding-left: 50px;
     padding-right: 20px;
     text-align: justify;
-    padding-top: 10px;
+    padding-top: 1px;
     padding-bottom: 10px;
-    background-color: rgb(206, 130, 130, 0.9);
+    background-color: #f2bc94;
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(255, 249, 249, 0.8);
+    color: #30110d;
+    border-right: 2px solid #30110d;
+    border-left: 2px solid #30110d;
 }
 
 .config-lista-nordenada {
