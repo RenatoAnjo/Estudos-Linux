@@ -62,10 +62,10 @@
       <h2>Conteúdo</h2>
     <article class="lista-n-ordenada">
       <ul>
-        <li><span class="lista-ordenada">O Que é Linux?</span></li>
-        <li><span class="lista-ordenada">Como Usar o Linux?</span></li>
-        <li><span class="lista-ordenada">Comandos Linux</span></li>
-        <li><span class="lista-ordenada">Dicas e truques de Bônus</span></li>
+        <li><span class="lista-nao-ordenada">O Que é Linux?</span></li>
+        <li><span class="lista-nao-ordenada">Como Usar o Linux?</span></li>
+        <li><span class="lista-nao-ordenada">Comandos Linux</span></li>
+        <li><span class="lista-nao-ordenada">Dicas e truques de Bônus</span></li>
       </ul>
     </article>
       <h2> O Que é Linux?</h2>
@@ -76,7 +76,7 @@
     </article>
       <h2>Como Usar o Linux?</h2>
     <article class="texto-principal">
-      Quando você usa um sistema operacional, você tem que mexer no <strong>shell</strong> – uma interface que dá ao usuário o acesso aos serviços do sistema operacional. <br>
+      Quando você usa um sistema operacional, você tem que mexer no <span>shell</span> – uma interface que dá ao usuário o acesso aos serviços do sistema operacional. <br>
       A maioria das distribuições do Linux usam uma Interface Gráfica de Usuário (GUI) como o seu shell, principalmente para fornecer uma facilidade de uso aos seus usuários. <br>
       Dito isso, ele é mais recomendado para usar uma linha de comando porque ele é mais poderoso e eficiente. As tarefas que exigem  um processo de múltiplas etapas pela GUI podem ser feitas em questão de segundos digitando comandos pela linha de comando.  <br>
       Então, se você está pensando em usar o Linux, aprender linhas de comandos básicos do Linux é uma das principais coisas que você deve saber. E é exatamente isso o que você confere abaixo. <br>
@@ -90,20 +90,20 @@
         1. Comando pwd
       </h3>
     <article class="texto-principal">
-      Use o comando <strong>pwd</strong> para encontrar o caminho para o diretório atual (da pasta) em que você está. O comando vai retornar um caminho completo (cheio), que é basicamente um caminho que começa com uma barra inclinada <strong>(/)</strong>. Um exemplo de um caminho completo é <strong>/home/username</strong>.
+      Use o comando <span>pwd</span> para encontrar o caminho para o diretório atual (da pasta) em que você está. O comando vai retornar um caminho completo (cheio), que é basicamente um caminho que começa com uma barra inclinada <span>(/)</span>. Um exemplo de um caminho completo é <span>/home/username</span>.
     </article>
       <h3> 
         2. Comando cd
       </h3>
     <article class="texto-principal">
-      Para navegar pelo filesystem do Linux, use o comando <strong>cd</strong> . Ele requer ou um caminho completo ou o nome de um diretório, dependendo do diretório atual em que você estiver. <br>
-      Vamos dizer que você esteja em <strong>/home/username/Documents</strong>  e quer ir para <strong>Photos</strong> , um subdiretório de <strong>Documents</strong>. Para fazer isso, simplesmente digite <strong>cd Photos</strong> . <br>
-      Outro cenário em que você quer mudar completamente de diretório, digamos, para <strong>/home/username/Movies</strong> . Nesse caso, você tem que digitar <strong>cd</strong> seguido pelo caminho absoluto do diretório.    <br>
+      Para navegar pelo filesystem do Linux, use o comando <span>cd</span> . Ele requer ou um caminho completo ou o nome de um diretório, dependendo do diretório atual em que você estiver. <br>
+      Vamos dizer que você esteja em <span>/home/username/Documents</span>  e quer ir para <span>Photos</span> , um subdiretório de <span>Documents</span>. Para fazer isso, simplesmente digite <span>cd Photos</span> . <br>
+      Outro cenário em que você quer mudar completamente de diretório, digamos, para <span>/home/username/Movies</span> . Nesse caso, você tem que digitar <span>cd</span> seguido pelo caminho absoluto do diretório.    <br>
       Existem alguns atalhos que você pode usar para navegar mais rapidamente: <br> <br>
       <ul class="config-lista-nordenada">
-        <li> <span class="lista-ordenada">Use <strong>cd..</strong>(com dois pontos seguidos) para mover um diretório acima</span></li>
-        <li> <span class="lista-ordenada">Use cd para ir diretamente para a pasta home</span></li>
-        <li> <span class="lista-ordenada">(Use <strong>cd–</strong> com um hífen) para mover para os diretórios anteriores.</span></li>
+        <li> <span class="lista-nao-ordenada">Use <span>cd..</span>(com dois pontos seguidos) para mover um diretório acima</span></li>
+        <li> <span class="lista-nao-ordenada">Use cd para ir diretamente para a pasta home</span></li>
+        <li> <span class="lista-nao-ordenada">(Use <span>cd–</span> com um hífen) para mover para os diretórios anteriores.</span></li>
      </ul> <br>
      Uma nota de aviso: o shell do Linux é sensível a tipos de caracteres. Por isso, você precisa digitar o nome do diretório exatamente como ele é escrito (usando letras minúsculas ou maiúsculas).
     </article>
@@ -115,26 +115,28 @@
       Se você quiser ver o conteúdo de outros diretórios, digite ls e, então, o caminho do diretório. Por exemplo, digite ls /home/username/Documents para ver os conteúdos de Documents. <br>
       Existem variações que você pode usar com o comando Is: <br>
       <ul class="config-lista-nordenada">
-        <li><span class="lista-ordenada"><strong>ls -R</strong>  vai listar todos os arquivos nos subdiretórios;</span></li> 
-        <li><span class="lista-ordenada"><strong>ls -a</strong> vai mostrar todos os arquivos ocultos;</span></li>
-        <li><span class="lista-ordenada"><strong>ls -al</strong> vai listar todos os arquivos e diretórios com informações detalhadas como permissões, tamanho, proprietário, etc.</span></li>
+        <li><span class="lista-nao-ordenada"><strong>ls -R</strong>  vai listar todos os arquivos nos subdiretórios;</span></li> 
+        <li><span class="lista-nao-ordenada"><strong>ls -a</strong> vai mostrar todos os arquivos ocultos;</span></li>
+        <li><span class="lista-nao-ordenada"><strong>ls -al</strong> vai listar todos os arquivos e diretórios com informações detalhadas como permissões, tamanho, proprietário, etc.</span></li>
       </ul>    
      </article> 
       <h3>
         4. Comando cat
       </h3>
      <article class="texto-principal">
-      O cat (abreviação para concatenar) é um dos comandos Linux mais usados. Ele é usado para visualizar o conteúdo de um arquivo na saída padrão (sdout). Para executar esse comando, digite cat seguido pelo nome do arquivo e sua extensão. Por exemplo: cat file.text. <br>
-      Aqui estão outras maneiras de usar o comando cat: <br>
-      cat > filename cria um novo arquivo
-      cat filename1 filename2>filename3 junta dois arquivos (1 e 2) e armazena a saída deles num novo arquivo (3)
-      para converter um arquivo para usos de maiúscula ou minúscula, use cat filename | tr a-z A-Z >output.txt
+      O <span>cat</span> (abreviação para concatenar) é um dos comandos Linux mais usados. Ele é usado para visualizar o conteúdo de um arquivo na saída padrão (sdout). Para executar esse comando, digite <span>cat</span> seguido pelo nome do arquivo e sua extensão. Por exemplo: <span>cat file.text</span>. <br>
+      Aqui estão outras maneiras de usar o comando <span>cat</span>: <br>
+        <ul class="config-lista-nordenada">
+          <li><span class="lista-nao-ordenada"><strong>cat > filename</strong>  cria um novo arquivo</span></li>
+          <li><span class="lista-nao-ordenada"><strong>cat filename1 filename2>filename3</strong> junta dois arquivos (1 e 2) e armazena a saída deles num novo arquivo (3)</span></li>
+          <li><span class="lista-nao-ordenada">para converter um arquivo para usos de maiúscula ou minúscula, use <strong>cat filename | tr a-z A-Z >output.txt</strong></span></li>        
+        </ul>
      </article> 
       <h3>
         5. Comando cp 
       </h3> 
      <article class="texto-principal">
-      Use o comando cp para copiar arquivo do diretório atual em que você estiver. Por exemplo, o comando cp scenery.jpg /home/username/Picturesvai criar uma cópia de scenery.jpg para o diretório Pictures.  
+      Use o comando <span>cp</span> para copiar arquivo do diretório atual em que você estiver. Por exemplo, o comando <span> cp scenery.jpg /home/username/Picturesvai</span>  criar uma cópia de <span>scenery.jpg</span>  para o diretório <span> Pictures.</span> 
      </article> 
       <h3>
         6. Comando mv
@@ -142,7 +144,7 @@
     <article class="texto-principal">
       O usuário habitual do comando mv é mover arquivos, ainda que ele possa também ser usado para renomear arquivos. <br>
       Os argumentos neste comando é similar ao comando cp. Você precisa digitar mv, o nome do arquivo e o diretório de destino. Por exemplo: mv file.txt /home/username/Documents.   <br>
-      Já para renomear arquivos, a sintaxe é mv nomeantigo.ext nomenovo.ext. 
+      Já para renomear arquivos, a sintaxe é <span>mv nomeantigo.ext nomenovo.ext</span> . 
     </article> 
       <h3>
         7. Comando mkdir

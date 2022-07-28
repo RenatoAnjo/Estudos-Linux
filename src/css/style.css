@@ -118,6 +118,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Sublinhado para enfatizar os comandos nas listas */
 strong {
     font-style: italic;
     text-decoration: underline;
@@ -127,6 +128,7 @@ strong {
     font-size: 20px;
 }
 
+/* Sublinhado e undeliner para enfatizar as palavras principais no contexto */
 span {
     font-style: italic;
     font-weight: bold;
@@ -135,12 +137,14 @@ span {
     font-size: 20px;
 }
 
+
 ol li {
     padding-left: 5px;
     font-size: 25px;
     color: #722620;
     font-weight: 900;
 }
+
 
 ul li {
     padding-left: 5px;
@@ -149,11 +153,19 @@ ul li {
     font-weight: 900;
 }
 
+/* Configuracao da fonte - tamanho e cor */
 .lista-ordenada {
     color: #30110d;
     font-size: 18px;
 }
 
+/* Configuração da fonte - tamanho e cor */
+.lista-nao-ordenada {
+    color: #30110d;
+    font-size: 18px;
+}
+
+/* Distancias laterais, texto alinhado, distacias sup e inf, fundo, fonte (tamanho, tipo e cor), e bordas laterais */
 .lista-n-ordenada {
     padding-left: 50px;
     padding-right: 20px;
@@ -168,6 +180,7 @@ ul li {
     border-left: 2px solid #30110d;
 }
 
+/* Distâcia da borda até o ponto da lista */
 .config-lista-nordenada {
     padding-left: 35px;
 }
