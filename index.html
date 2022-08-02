@@ -155,5 +155,41 @@
         Para gerar um novo diretório dentro de outro diretório, use este comando básico do Linux mkdir Music/Newfile
         use a opção p (parents) para criar um diretório entre dois diretórios existentes. Por exemplo, mkdir -p Music/2020/Newfile vai criar o novo arquivo “2020”. <br>
       </article> 
+      <h3>
+        8. Comando rmdir
+      </h3>
+      <article class="texto-principal">
+        Se você precisa apagar (deletar) um diretório, use o comando rmdir. Porém, o rdmir só permite que você apague diretórios vazios (sem conteúdos).
+      </article> 
+      <h3>
+        9. Comando rm
+      </h3>
+      <article class="texto-principal">
+        O comando rm é usado para apagar um diretório e todos os conteúdos que estiverem lá dentro. Se você só quer deletar o diretório – como uma alternativa ao rdmir – use rm -r. <br>
+        Nota: Tenha muito cuidado com este comando e sempre verifique duas vezes em qual diretório você está. Isso irá deletar tudo e não há opção para desfazer.
+      </article> 
+      <h3>
+        10. Comando touch
+      </h3>
+      <article class="texto-principal">
+        O comando touch permite criar novos arquivos em branco através de uma linha de comando. Como exemplo, digite touch /home/username/Documents/Web.html para criar um arquivo HTML chamado Web dentro do diretório Documents.
+      </article> 
+      <h3>
+        11. Comando locate
+      </h3>
+      <article class="texto-principal">
+        Você pode o comando locate para localizar um arquivo, assim como você faz para procurar um arquivo no Windows. Além disso, usando o argumento -i junto com esse comando faz com que ele se torne insensível a caracteres, permitindo que você pesquise por um arquivo não sabendo exatamente o nome dele. <br>
+        Para procurar um arquivo que contém duas ou mais palavras, use um asterisco (*). Por exemplo, use o comando locate -i school*note para encontrar qualquer arquivo que tenha as palavras “school” e “note”, não importando se existem letras maiúsculas ou minúsculas.
+      </article> 
+      <h3>
+        12. Comando find
+      </h3>
+      <article class="texto-principal">
+        Similar ao comando locate, o comando find ajuda você a procurar por arquivos. A diferença é que você usa o find para localizar arquivos dentro de um diretório específico. <br>
+        Como exemplo, digite find /home/ -name notes.txt para procurar por um arquivo chamado notes.txt dentro do diretório home e seus subdiretórios. <br>
+        Outras variações na hora de usar o find são:
+        Para encontrar arquivos no diretório atual, use find . -name notes.txt
+        Para procurar por diretórios, use / -type d -name notes. txt
+      </article> 
   </body> 
 </html>
